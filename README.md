@@ -1,122 +1,73 @@
-# 🎯 Crack It Now
+# Welcome to your Lovable project
 
-Crack It Now is a MERN-stack educational platform developed for UPSC and GATE aspirants. The application helps students organize their syllabus, create study plans, manage learning resources, and track preparation progress through a centralized and user-friendly interface.
+## Project info
 
-## 📖 Overview
+**URL**: https://lovable.dev/projects/6f027e98-8d57-42ae-a0f0-8749a96243c7
 
-Traditional exam preparation often relies on scattered resources, handwritten schedules, and multiple platforms. Crack It Now addresses these challenges by providing an integrated system that combines syllabus management, study planning, and resource organization in one place.
+## How can I edit this code?
 
-## ✨ Key Features
+There are several ways of editing your application.
 
-### 📚 Syllabus Management
-- UPSC Prelims and Mains syllabus support
-- GATE syllabus support for multiple streams
-- Subject-wise and topic-wise organization
-- Easy navigation through syllabus structure
+**Use Lovable**
 
-### 📅 Study Planner
-- Create daily study schedules
-- Create weekly study plans
-- Track completed and pending topics
-- Manage preparation timelines efficiently
+Simply visit the [Lovable Project](https://lovable.dev/projects/6f027e98-8d57-42ae-a0f0-8749a96243c7) and start prompting.
 
-### 📂 Resource Management
-- Upload study materials
-- Organize PDFs, videos, and useful links
-- Associate resources with subjects and topics
-- Centralized learning resource repository
+Changes made via Lovable will be committed automatically to this repo.
 
-### 🎯 Exam Selection
-- UPSC preparation mode
-- GATE preparation mode
-- Stream-specific syllabus filtering
-- Personalized study workflow
+**Use your preferred IDE**
 
-### 👤 User Management
-- User authentication
-- Role-based access
-- Session management
-- Secure login system
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-## 🛠️ Technology Stack
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-### Frontend
-- React.js
-- HTML5
-- CSS3
-- JavaScript
+Follow these steps:
 
-### Backend
-- Node.js
-- Express.js
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-### Database
-- MongoDB
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-## 📂 Project Structure
+# Step 3: Install the necessary dependencies.
+npm i
 
-```text
-Crack-It-Now/
-│
-├── client/
-├── server/
-├── public/
-├── src/
-├── package.json
-└── README.md
-```
-
-## 🚀 Installation
-
-### Clone Repository
-
-```bash
-git clone <repository-url>
-```
-
-### Navigate to Project
-
-```bash
-cd Crack-It-Now
-```
-
-### Install Dependencies
-
-```bash
-npm install
-```
-
-### Run Application
-
-```bash
-npm start
-```
-
-or
-
-```bash
+# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
 
-## 🎯 Target Users
+**Edit a file directly in GitHub**
 
-- UPSC Aspirants
-- GATE Aspirants
-- Students preparing for competitive examinations
-- Learners seeking structured study planning
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-## 🔮 Future Enhancements
+**Use GitHub Codespaces**
 
-- Progress analytics dashboard
-- Mock test integration
-- AI-based study recommendations
-- Mobile application support
-- Performance tracking reports
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## 👨‍💻 Author
+## What technologies are used for this project?
 
-Kolguri Akshara
+This project is built with:
 
-## 📄 License
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-This project is developed for educational and learning purposes.
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/6f027e98-8d57-42ae-a0f0-8749a96243c7) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
