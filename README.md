@@ -1,73 +1,122 @@
-# Welcome to your Lovable project
+# 🎯 Crack It Now
 
-## Project info
+Crack It Now is a MERN-stack educational platform developed for UPSC and GATE aspirants. The application helps students organize their syllabus, create study plans, manage learning resources, and track preparation progress through a centralized and user-friendly interface.
 
-**URL**: https://lovable.dev/projects/6f027e98-8d57-42ae-a0f0-8749a96243c7
+## 📖 Overview
 
-## How can I edit this code?
+Traditional exam preparation often relies on scattered resources, handwritten schedules, and multiple platforms. Crack It Now addresses these challenges by providing an integrated system that combines syllabus management, study planning, and resource organization in one place.
 
-There are several ways of editing your application.
+## ✨ Key Features
 
-**Use Lovable**
+### 📚 Syllabus Management
+- UPSC Prelims and Mains syllabus support
+- GATE syllabus support for multiple streams
+- Subject-wise and topic-wise organization
+- Easy navigation through syllabus structure
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6f027e98-8d57-42ae-a0f0-8749a96243c7) and start prompting.
+### 📅 Study Planner
+- Create daily study schedules
+- Create weekly study plans
+- Track completed and pending topics
+- Manage preparation timelines efficiently
 
-Changes made via Lovable will be committed automatically to this repo.
+### 📂 Resource Management
+- Upload study materials
+- Organize PDFs, videos, and useful links
+- Associate resources with subjects and topics
+- Centralized learning resource repository
 
-**Use your preferred IDE**
+### 🎯 Exam Selection
+- UPSC preparation mode
+- GATE preparation mode
+- Stream-specific syllabus filtering
+- Personalized study workflow
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 👤 User Management
+- User authentication
+- Role-based access
+- Session management
+- Secure login system
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Technology Stack
 
-Follow these steps:
+### Frontend
+- React.js
+- HTML5
+- CSS3
+- JavaScript
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Backend
+- Node.js
+- Express.js
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Database
+- MongoDB
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 📂 Project Structure
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```text
+Crack-It-Now/
+│
+├── client/
+├── server/
+├── public/
+├── src/
+├── package.json
+└── README.md
+```
+
+## 🚀 Installation
+
+### Clone Repository
+
+```bash
+git clone <repository-url>
+```
+
+### Navigate to Project
+
+```bash
+cd Crack-It-Now
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Run Application
+
+```bash
+npm start
+```
+
+or
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 🎯 Target Users
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- UPSC Aspirants
+- GATE Aspirants
+- Students preparing for competitive examinations
+- Learners seeking structured study planning
 
-**Use GitHub Codespaces**
+## 🔮 Future Enhancements
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- Progress analytics dashboard
+- Mock test integration
+- AI-based study recommendations
+- Mobile application support
+- Performance tracking reports
 
-## What technologies are used for this project?
+## 👨‍💻 Author
 
-This project is built with:
+Kolguri Akshara
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📄 License
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/6f027e98-8d57-42ae-a0f0-8749a96243c7) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is developed for educational and learning purposes.
